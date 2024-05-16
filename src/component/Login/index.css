@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 110px;
+    height: 60px;
+    padding-bottom: 15px;
+}
+
+.logo-cont {
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: 2px;
+    height: 50px;
+    width: 120px;
+}
+
+#form-div {
+    background-color: rgb(178, 203, 222);
+    border-radius: 10px;
+    padding: 7px;
+    margin-top: 50%;
+}
+
+label {
+    font-size: 18px;
+}
+
+p {
+    color: red;
+    font-size: 15px;
+}
+
+
+/* @media only screen and (min-width:390px) and (max-width:412px) {
+    #form-div {
+        margin-top: 60%;
+    }
+} */
+
+
+/* @media only screen and (min-width:768px) {
+    #form-div {
+        margin-top: 80%;
+    }
+} */

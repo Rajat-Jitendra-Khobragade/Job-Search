@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(/mega/public/bg-img.jpg); */
+    background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Beautiful-Plain-Website-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.jobDetails-skill-cont {
+    margin-top: -35px;
+    border-radius: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    background-color: rgb(46, 43, 43);
+    color: white;
+}
+
+#icon-title-rating-cont {
+    padding-top: 90px;
+    height: 90px;
+    width: 100%;
+}
+
+#visit-cont {
+    display: flex;
+    justify-content: end;
+    margin-top: -45px;
+    padding-bottom: 10px;
+}
+
+#visit {
+    color: rgb(89, 153, 237);
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fa-box-arrow {
+    font-size: 16px;
+}
+
+#skills-cont {
+    margin-top: -4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills-heading {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.skill-list {
+    margin-left: 10px;
+    margin-top: 18px;
+    list-style: none;
+}
+
+.skill-image {
+    width: 25px;
+    height: 25px;
+}
+
+.skill-name {
+    padding-left: 9px;
+    color: white;
+}
+
+.life-at-company-cont {
+    margin-top: 20px;
+}
+
+#life-para-image-cont {
+    margin-top: 5px;
+}
+
+#life-at-company-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#life-para {
+    color: white;
+}
+
+.similar-heading {
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.similarjob-cont {
+    margin-top: -60px;
+    background-color: rgb(46, 43, 43);
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width:330px) and (max-width:359px) {
+    #life-image {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:389px) {}
+
+@media only screen and (min-width:390px) and (max-width:767px) {
+    #life-image {
+        width: 75%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    #life-para-image-cont {
+        display: flex;
+        justify-content: space-between;
+    }
+    #life-para {
+        width: 50%;
+    }
+    #life-image {
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #life-para-image-cont {
+        display: flex;
+        justify-content: space-between;
+    }
+    #life-para {
+        width: 50%;
+    }
+    #life-image {
+        width: 40%;
+        height: 300px;
+    }
+}

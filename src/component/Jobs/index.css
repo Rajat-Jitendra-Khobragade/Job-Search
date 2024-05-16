@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.search-cont {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#search {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+#search::placeholder {
+    color: gray;
+}
+
+#search-icon {
+    font-weight: 600;
+    font-size: 41px;
+    margin-left: -50px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 55px;
+}
+
+.jobs-main-cont {
+    width: 100%;
+    min-height: 100%;
+}
+
+.filter-job-cont {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-cont {
+    padding: 30px;
+    padding-bottom: 2px;
+}
+
+.job-cont {
+    padding-right: 40px;
+}
+
+@media only screen and (min-width:330px) and (max-width:359px) {
+    .search-cont {
+        width: 80%;
+    }
+    .filter-cont {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:389px) {
+    .search-cont {
+        width: 80%;
+    }
+    .filter-cont {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width:767px) {
+    .search-cont {
+        width: 80%;
+    }
+    .filter-cont {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1280px) {
+    .search-cont {
+        width: 40%;
+    }
+    .filter-cont {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .search-cont {
+        width: 30%;
+    }
+    .filter-cont {
+        padding-left: 60px;
+    }
+}

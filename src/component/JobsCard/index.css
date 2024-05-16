@@ -1,0 +1,80 @@
+.job-card-cont {
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    background-color: rgb(46, 43, 43);
+    cursor: pointer;
+}
+
+#company-logo {
+    width: 60px;
+    height: 65px;
+    margin-top: -120px;
+}
+
+#title-star-cont {
+    width: 200px;
+    margin-top: -100px;
+    margin-left: 85px;
+}
+
+#title-star-cont span {
+    margin-right: 8px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#title-star-cont .icon {
+    color: rgb(242, 182, 78);
+}
+
+.icon {
+    font-size: 18px;
+}
+
+#location-package {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: -8px;
+    border-bottom: 1px solid white;
+}
+
+.location-emp-cont {
+    width: 100%;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.location-emp-cont span {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.package {
+    text-align: end;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+#discription-cont {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#disc-name {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#disc-para {
+    color: white;
+}
+
+.jobcart-link {
+    text-decoration: none;
+}
